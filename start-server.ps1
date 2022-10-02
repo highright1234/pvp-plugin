@@ -1,0 +1,1 @@
+wsl sh -c "cd .server && ./start.sh"
