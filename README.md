@@ -1,10 +1,26 @@
-# Hara Sample
-My sample paper plugin
-
+# PvpPlugin
+대충 쓸려고 만든 pvp 플러그인
 
 ## How to use
-`/sample`   
-It will print "Hello, World!"
+`/pvp kd`   
+kd 확인   
+`/pvp admin reload`   
+config 리로드
+
+## //TODO
+- kd 확인 명령어 아직 안만들었음
+- 킷 설정
+
+## 기능
+싸우는중에는 다른 플레이어 못떄림
+
+### config 값들
+- pvp-continue-time: 누가 때리고 설정한 이 값만큼 시간이 지나면 싸우는 상태 제거(ms 단위)
+- is-debug: true: 디버그 메시지
+- start-action: 싸우려 할때 액션 ( ALL / HAND / BOW / CLOSE_WEAPON )
+- hiding-players-when-fighting: 싸우는중 다른플레이어 숨기기
+- activation-world: 이 기능을 적용할 월드
+- hiding-fighting-players: 싸우고 있는 플레이어들을 숨기기
 
 
 ## Used Libraries

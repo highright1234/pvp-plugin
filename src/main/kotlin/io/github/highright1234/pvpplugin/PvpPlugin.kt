@@ -43,6 +43,9 @@ class PvpPlugin : SuspendingJavaPlugin() {
         PvpConfig.isDebug = loadBoolean("is-debug")
         PvpConfig.hidingPlayersWhenFighting = loadBoolean("hiding-players-when-fighting")
         PvpConfig.hidingFightingPlayers = loadBoolean("hiding-fighting-players")
+
+        PvpConfig.activationWorld.let(server::getWorld)
+            ?: logger.info("Unknown world ${PvpConfig.activationWorld}")
     }
 
     override suspend fun onEnableAsync() {
