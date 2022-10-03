@@ -31,6 +31,6 @@ config 리로드
 ## Used Libraries
 > Coroutine   
 > [MCCoroutine](https://github.com/Shynixn/MCCoroutine)   
-> [Komamnd](https://github.com/monun/kommand)   
+> [Kommand](https://github.com/monun/kommand)   
 > [InvFX](https://github.com/monun/invfx)   
 > [Tap](https://github.com/monun/tap)   
