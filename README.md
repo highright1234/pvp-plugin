@@ -22,6 +22,11 @@ config 리로드
 - activation-world: 이 기능을 적용할 월드
 - hiding-fighting-players: 싸우고 있는 플레이어들을 숨기기
 
+## TMI
+
+사실 코드 짜다가 알게된거였는데 플레이어 싸우는중에 투명으로 보이던거나   
+다른 그런기능이 이미 어느 서버에 있어서 클론코딩 비스무리하게 되버린
+
 
 ## Used Libraries
 > Coroutine   

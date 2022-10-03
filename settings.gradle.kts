@@ -1,1 +1,1 @@
-rootProject.name = "pvp-plugin" // TODO
+rootProject.name = "pvp-plugin"

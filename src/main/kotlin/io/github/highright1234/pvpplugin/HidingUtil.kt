@@ -20,7 +20,9 @@ object HidingUtil {
     fun showPlayers(player: Player) {
         PvpPlugin.plugin.server.onlinePlayers.forEach {
             show(it to player)
-            show(player to it)
+            if (PvpConfig.hidingFightingPlayers) {
+                show(player to it)
+            }
         }
     }
 
