@@ -1,1 +1,1 @@
-rootProject.name = "hara-sample" // TODO
+rootProject.name = "pvp-plugin" // TODO

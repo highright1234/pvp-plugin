@@ -4,14 +4,14 @@ plugins {
     idea
     kotlin("jvm") version Versions.KOTLIN
     id("net.minecrell.plugin-yml.bukkit") version Versions.PLUGIN_YML
-    id("io.gitlab.arturbosch.detekt") version Versions.DETEKT
+//    id("io.gitlab.arturbosch.detekt") version Versions.DETEKT
 }
 
-detekt {
-    toolVersion = "1.21.0"
-    config = files("config/detekt/detekt.yml")
-    buildUponDefaultConfig = true
-}
+//detekt {
+//    toolVersion = "1.21.0"
+//    config = files("config/detekt/detekt.yml")
+//    buildUponDefaultConfig = true
+//}
 
 java.toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 val monunLibraries = mutableListOf<String>()
@@ -68,9 +68,9 @@ bukkit {
     main = "${project.group}.$directoryName.$pluginName"
     website = "http://www.github.com/highright1234/${project.name}"
     author = "HighRight"
-    (libraries ?: listOf()).plus(monunLibraries).also {
-        libraries = it
-    }
+//    (libraries ?: listOf()).plus(monunLibraries).also {
+//        libraries = it
+//    }
 }
 
 tasks.register<Jar>("pluginsUpdate") {

@@ -1,4 +1,4 @@
-package io.github.highright1234.harasample.kommand
+package io.github.highright1234.pvpplugin.kommand
 
 import io.github.monun.kommand.PluginKommand
 
